@@ -58,4 +58,3 @@ cd termux_games
 ```
 bash install_games.sh
 ```
-```
