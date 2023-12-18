@@ -67,3 +67,5 @@ bash bash play_games.sh
 Now the available game list is displayed, here you can see the screenshot:-
 
 ![IMG_20231218_173230](https://github.com/Achik-Ahmed/termux_games/assets/153425431/8777b9ac-90af-49e6-b8a9-f07a9071a32f)
+
+Now select the number of the game that you want to play.
