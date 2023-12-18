@@ -51,3 +51,11 @@ pkg install git -y
 ```
 ```
 git clone https://github.com/Achik-Ahmed/termux_games
+```
+```
+cd termux_games
+```
+```
+bash install_games.sh
+```
+```
