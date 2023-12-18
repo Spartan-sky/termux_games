@@ -62,7 +62,7 @@ All games are successfully installed now it's time to play.
 ## Play Games
 Run the following commands to open the available games menu:
 ```
-bash bash play_games.sh
+bash play_games.sh
 ```
 Now the available game list is displayed, here you can see the screenshot:-
 
