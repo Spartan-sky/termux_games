@@ -74,6 +74,7 @@ If you are facing any problems or issues, then you can contact us by just enteri
 ```
 bash get_help.sh
 ```
+you can also visit our website for more: www.termuxcommands.com <br>
 ### Thank you for Using This Tool.
 
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Achik-Ahmed.termux_games&format=true)
