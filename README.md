@@ -50,4 +50,4 @@ apt update && apt upgrade -y
 pkg install git -y
 ```
 ```
-git clone 
+git clone https://github.com/Achik-Ahmed/termux_games
