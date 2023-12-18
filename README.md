@@ -69,3 +69,9 @@ Now the available game list is displayed, here you can see the screenshot:-
 ![IMG_20231218_173230](https://github.com/Achik-Ahmed/termux_games/assets/153425431/8777b9ac-90af-49e6-b8a9-f07a9071a32f)
 
 Now select the number of the game that you want to play.
+## Get Help
+If you are facing any problems or issues, then you can contact us by just entering the following commands:
+```
+bash get_help.sh
+```
+Thank you for Using This Tool.
