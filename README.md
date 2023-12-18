@@ -39,3 +39,13 @@ With this tool, you can install and play 19 different types of Termux games with
 
 [19] myman
 
+## INSTALLATION COMMANDS
+```
+termux-setup-storage
+```
+```
+apt update && apt upgrade -y
+```
+```
+pkg install git -y
+```
