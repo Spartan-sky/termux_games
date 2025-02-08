@@ -23,8 +23,6 @@ display_banner() {
   echo -e "${NC}"
 }
 
-libandroid-support, libc++, glib, libcurl, libedit
-
 # List of game packages
 games=(
   0verkill
