@@ -14,7 +14,7 @@ gem install lolcat
 
 echo -e "${YELLOW}Installing libandroid-support, libc++..."
 echo -e "glib, libcurl and libedit...${NC}"
-pgk install libandroid-support libc++ glib libcurl libedit -y
+pkg install libandroid-support libc++ glib libcurl libedit -y
 
 # Function to display colorful banner using figlet and lolcat
 display_banner() {
