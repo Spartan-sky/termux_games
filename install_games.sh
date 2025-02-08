@@ -12,38 +12,41 @@ echo -e "${YELLOW}Installing figlet, ruby, lolcat, and ncurses-utils...${NC}"
 pkg install figlet ruby ncurses-utils -y
 gem install lolcat
 
+echo -e "${YELLOW}Installing libandroid-support, libc++..."
+echo -e "glib, libcurl and libedit...${NC}"
+pgk install libandroid-support libc++ glib libcurl libedit -y
+
 # Function to display colorful banner using figlet and lolcat
 display_banner() {
-    echo -e "${CYAN}"
-    figlet -f slant "$1" | lolcat
-    echo -e "${NC}"
+  echo -e "${CYAN}"
+  figlet -f slant "$1" | lolcat
+  echo -e "${NC}"
 }
 
-# Display initial message
-echo -e "${YELLOW}$(tput cols | awk '{printf "%*s\n", $1/2 + 20, "Visit termuxcommands.com"}')${NC}"
+libandroid-support, libc++, glib, libcurl, libedit
 
 # List of game packages
 games=(
-    0verkill
-    2048-c
-    brogue
-    cavez-of-phear
-    curseofwar
-    csol
-    dopewars
-    gnugo
-    gnuski
-    greed
-    moon-buggy
-    moria
-    nethack
-    npush
-    nsnake
-    nudoku
-    pacman4console
-    robotfindskitten
-    tty-solitaire
-    myman
+  0verkill
+  frogcomposband
+  brogue
+  cavez-of-phear
+  curseofwar
+  csol
+  dopewars
+  gnugo
+  gnuski
+  greed
+  mazter
+  moon-buggy
+  moria
+  nethack
+  ninvaders
+  npush
+  nsnake
+  nudoku
+  open-adventure
+  robotfindskitten
 )
 
 # Update and upgrade Termux packages
@@ -52,9 +55,9 @@ pkg update -y && pkg upgrade -y
 
 # Install game packages with colorful banners
 for game in "${games[@]}"; do
-    display_banner "$game"
-    pkg install "$game" -y
-    echo -e "${GREEN}Installed ${game} successfully!${NC}"
+  display_banner "$game"
+  pkg install "$game" -y
+  echo -e "${GREEN}Installed ${game} successfully!${NC}"
 done
 
 # Display success message with credits
